@@ -5,9 +5,9 @@ module "sandbox" {
     AccountEmail              = "members-84947@account.classmethod.jp"
     AccountName               = "sandbox-aft"
     ManagedOrganizationalUnit = "Learn AFT"
-    # SSOUserEmail              = "<SSO EMAIL>"
-    # SSOUserFirstName          = "Sandbox"
-    # SSOUserLastName           = "AFT"
+    SSOUserEmail              = "members-84888@account.classmethod.jp"
+    SSOUserFirstName          = "Sandbox"
+    SSOUserLastName           = "AFT"
   }
 
   account_tags = {
